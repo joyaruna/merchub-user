@@ -1,0 +1,1 @@
+export const baseURL = 'https://merchub-api.herokuapp.com/api';

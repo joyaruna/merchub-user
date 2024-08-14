@@ -1,0 +1,39 @@
+
+
+.LandingPage .featured-categories {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+  
+}
+
+.LandingPage .featured-categories h1 {
+    font-size: 19px;
+    background: #30BCB4;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.LandingPage .featured-categories img {
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: 2px solid #9e256e;
+}
+
+.LandingPage .category-head {
+    /* border: 1px solid #30BCB4; */
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1rem;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgb(0 0 0 / 20%); */
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.LandingPage .category-head .category-items {
+    display: flex;
+     justify-content: space-between;
+}

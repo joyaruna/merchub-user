@@ -1,0 +1,90 @@
+.ProductPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductPage .info-container {
+    display: flex;
+    padding: 2rem;
+}
+.ProductPage .product-image {
+    margin-right: 4rem;
+}
+
+.ProductPage .main-image {
+    margin-bottom: 0.5rem;
+}
+
+.ProductPage .main-image .main {
+    width: 25rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    border: 4px solid #9e256e;
+}
+
+.ProductPage .sub-image .first-sub {
+    margin-right: 0.5rem;
+}
+
+.ProductPage .sub-image img {
+    width: 9rem;
+    border: 4px solid #9e256e;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.ProductPage .product-description {
+    width: 60%;
+}
+
+.ProductPage .product-description h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.ProductPage .product-description h1 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.ProductPage .product-description h3 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    text-align: justify;
+}
+.ProductPage .product-description .place-order {
+    padding: 0.7rem 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #30BCB4;
+    outline: none;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ProductPage .related h1 {
+    font-size: 22px;
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+.ProductPage .related-products {  
+    display: flex;
+    border: 2px solid #9e256e;
+    margin: 1rem 2rem;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+.ProductPage .related-products img {
+    width: 9rem;
+    border: 4px solid #9e256e;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin: 2rem;
+}

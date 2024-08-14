@@ -1,0 +1,75 @@
+.banner .slide-1 {
+    background-image: url('/images/bag.jpg');
+    /* background-color: #30BCB4; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .carousel-container{
+    border: 3px solid #9E256E;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+  }
+
+  .carousel-content {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    z-index: 20;
+    color: white;
+  }
+
+  .carousel-content .slide-btn1{
+    background-color: #9E256E;
+    /* margin-left :5rem; */
+  }
+
+  .carousel-content .slide-btns{
+    color: white;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    padding: 0.5rem 2rem; 
+    border-style: none; 
+    box-sizing: border-box;
+    box-shadow: 0 0 12px rgb(0 0 0 / 35%);
+ 
+  }
+
+  .carousel-content .explore {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.5;
+}
+
+.carousel-content .slide-shopping{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .banner .slide-2 {
+    background-image: url('/images/cart2.jpg');
+    /* background-color: #30BCB4; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .carousel-content .slide-btn2{
+    background-color: #9E256E;
+    /* margin-left :5rem; */
+  }
+
+.carousel-indicators {
+    bottom: 0.2rem;
+  }

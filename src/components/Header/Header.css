@@ -1,0 +1,58 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #9E256E;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1.5rem 0;
+}
+
+.Header a {
+    text-transform: uppercase;
+    font-family: Roboto;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form input[type="text"], textarea {
+    padding: 1rem;
+  }
+
+.Header  .form input {
+    width: 25rem;
+    height: 3rem;
+    border: none;
+    box-sizing: border-box; 
+}
+input:focus {
+    outline: none;
+  }
+.Header .form button {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #30BCB4;
+    border: none;
+    box-sizing: border-box;
+    padding: 0.45rem 1rem 0.72rem  ;
+}
+.App-logo .logo {
+    width: 8rem;
+}
+
+.Header .fas {
+    color: #fff;
+}
+.Header  a .fas  {
+    background-color: #30BCB4;
+    margin-left: 5px;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0px 4px 4px #9e256e;
+}
